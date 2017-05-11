@@ -25,6 +25,7 @@ public class Bot
 	public static void main(String[] args)
 	{
 		LoadConfig();
+		System.out.println(TOKEN);
 		new UserHandler();
 
 		try
@@ -55,7 +56,7 @@ public class Bot
 
 	static void LoadConfig()
 	{
-		Config.SetConfigFile(System.getProperty("user.dir") + "\\..\\config.cfg");
-		TOKEN = Config.GetString("Token");
+		Config.SetConfigFile(System.getProperty("user.dir") + "\\config.cfg");
+		TOKEN = Config.GetString("token");
 	}
 }

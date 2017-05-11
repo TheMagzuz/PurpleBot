@@ -30,7 +30,7 @@ public class BotListener extends ListenerAdapter
 		User sender = e.getAuthor();
 		Member member = e.getMember();
 
-		System.out.println(msg);
+		//System.out.println(msg);
 		if (sender.isBot())
 			return;
 
@@ -213,7 +213,6 @@ public class BotListener extends ListenerAdapter
 	@Override
 	public void onReady(ReadyEvent event)
 	{
-
 		new Thread(new RouletteHandler(TimeUnit.toMilliseconds(10, TimeUnit.SECONDS), this)).start();
 	}
 
