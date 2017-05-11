@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="D:/Users/Markus/Documents/Work/Discord Bots/Discordmmo/JDA-3.0.0_185-withDependencies.jar" sourcepath="D:/Users/markus/Documents/Work/Discord Bots/Discordmmo/JDA-3.0.0_185-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Markus/Documents/Work/Lib/Random/BAS.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Markus/Documents/Work/Discord Bots/Discordmmo/mysql-connector-java-5.1.41-bin.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Markus/Documents/Work/Lib/json.org/JSON-java-master/build/jsonorg.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Markus/Documents/Work/Lib/ConfigLoad/ConfigLoad.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
